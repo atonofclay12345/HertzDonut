@@ -15,3 +15,10 @@ pip install pyaudio numpy matplotlib struct time
 
 python audio_test.py
 
+```
+
+Plan
+
+```
+We are going to start with getting audio input from the computer then once we figure how to get decibel and frequencys we will correspond those to RGB values
+
