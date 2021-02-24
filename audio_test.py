@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-%matplotlib tk
+#matplotlib tk
 
 CHUNK = 1024 * 4
 FORMAT = pyaudio.paInt16

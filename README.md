@@ -6,8 +6,12 @@ Copyright
 ```
 All ideas belong to @atonofclay12345 and @tpeat
 
+```
+
 Usage
 
 ```
 pip install pyaudio numpy matplotlib struct time
+
+python audio_test.py
 
