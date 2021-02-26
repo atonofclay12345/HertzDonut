@@ -1,11 +1,15 @@
 import pyaudio
 import numpy as np
+import aubio
 
 CHUNK = 2**11
 RATE = 44100
 
 p = pyaudio.PyAudio()
 stream = p.open(format= pyaudio.paInt16, channels = 1, rate = RATE, input = True, frames_per_buffer = CHUNK)
+
+#initiating aubio's pitch detection object
+pDetection = aubio.pitch("default", CHUNK, (CHUNK//2), RATE)
 
 
 for i in range(int(10*44100/1024)):
@@ -19,7 +23,9 @@ for i in range(int(10*44100/1024)):
   #eak = np.average(np.abs(data))*2
   #bars = "#"*int(50*peak/2**16)
   #print("%04d %05d %s"%(i,peak,bars))
-
+  
+  volume = np.sum(data**2)/len(data)
+  print("volume: %d"%volume)
 stream.stop_stream()
 stream.close()
 p.terminate()
