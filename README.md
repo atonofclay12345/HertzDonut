@@ -20,5 +20,17 @@ python audio_test.py
 Plan
 
 ```
-We are going to start with getting audio input from the computer then once we figure how to get decibel and frequencys we will correspond those to RGB values
+We are going to start with getting audio input from the computer.
+Then we will get frequency and decibal values from the stream.
+From there we will correlate decibal levels with brightness of LEDs.
+The frequency will be split into a five or six color range, that
+will be transmitted to the LED strip. 
 
+```
+
+TODO
+
+```
+Start writing .ino code
+
+Get power source/hardware hooked up for more lights
