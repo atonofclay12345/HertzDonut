@@ -8,7 +8,7 @@ All ideas belong to @atonofclay12345 and @tpeat
 
 ```
 
-###Usage
+### Usage
 
 ```
 pip install pyaudio numpy matplotlib struct time
@@ -17,7 +17,7 @@ python audio_test.py
 
 ```
 
-###Plan
+### Plan
 
 ```
 We are going to start with getting audio input from the computer.
@@ -28,9 +28,8 @@ will be transmitted to the LED strip.
 
 ```
 
-###TODO
+### TODO
 
-```
 * Start writing .ino code
 
 * Get power source/hardware hooked up for more lights
