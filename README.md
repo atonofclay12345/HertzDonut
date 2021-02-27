@@ -30,7 +30,6 @@ will be transmitted to the LED strip.
 
 ### TODO
 
-```
 * Start writing .ino code
 
 * Get power source/hardware hooked up for more lights
