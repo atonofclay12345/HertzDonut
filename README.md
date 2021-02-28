@@ -11,9 +11,9 @@ All ideas belong to @atonofclay12345 and @tpeat
 ### Usage
 
 ```
-pip install pyaudio numpy matplotlib struct time
+Defintely going to have to update later on, but for now just install the 
+dependencies and then run python sound.py
 
-python audio_test.py
 
 ```
 
@@ -30,7 +30,6 @@ will be transmitted to the LED strip.
 
 ### TODO
 
-```
 * Start writing .ino code
 
 * Get power source/hardware hooked up for more lights
